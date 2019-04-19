@@ -1,8 +1,6 @@
 from socket import *
 from urlparse import urlparse
-import sys
-import os
-import select
+import sys, os, select
 
 if len(sys.argv) == 2:
     param = sys.argv[1]
